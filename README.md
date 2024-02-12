@@ -8,3 +8,4 @@
 - [x] Day 6 - [Make your own login program](/Day%206%20-%20Make%20your%20own%20login%20program/project_6.py)
 - [x] Day 7 - [Fake Fan Question Generator](/Day%207%20-%20Fake%20Fan%20Question%20Generator/project_7.py)
 - [x] Day 8 - [Affirmations. Generator](/Day%208%20-%20Affirmations.%20Generator/project_8.py)
+- [x] Day 9 - [Generation Generator](/Day%209%20-%20Generation%20Generator/project_9.py)
