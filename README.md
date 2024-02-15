@@ -12,3 +12,4 @@
 - [x] Day 10 - [Extend your bill calculator](/Day%2010%20-%20Extend%20your%20bill%20calculator/project_10.py)
 - [x] Day 11 - [How many seconds are in a year](/Day%2011%20-%20How%20many%20seconds%20are%20in%20a%20year/project_11.py)
 - [x] Day 12 - [Debug my code](/Day%2012%20-%20Debug%20my%20code/project_12.py)
+- [x] Day 13 - [Grade Generator](/Day%2013%20-%20Grade%20Generator/project_13.py)
