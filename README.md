@@ -13,3 +13,4 @@
 - [x] Day 11 - [How many seconds are in a year](/Day%2011%20-%20How%20many%20seconds%20are%20in%20a%20year/project_11.py)
 - [x] Day 12 - [Debug my code](/Day%2012%20-%20Debug%20my%20code/project_12.py)
 - [x] Day 13 - [Grade Generator](/Day%2013%20-%20Grade%20Generator/project_13.py)
+- [x] Day 14 - [Rock-Paper-Scissors Game](/Day%2014%20-%20Rock%20-%20Paper%20-%20Scissors%20Game/project_14.py)
