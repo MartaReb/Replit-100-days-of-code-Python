@@ -16,3 +16,4 @@
 - [x] Day 14 - [Rock-Paper-Scissors Game](/Day%2014%20-%20Rock%20-%20Paper%20-%20Scissors%20Game/project_14.py)
 - [x] Day 15 - [All About Loops](/Day%2015%20-%20All%20About%20Loops/project_15.py)
 - [x] Day 16 - [Name the Lyrics](/Day%2016%20-%20Name%20the%20Lyrics/project_16.py)
+- [x] Day 17 - [Rock-Paper-Scissors (involving scoring) Game](/Day%2017%20-%20Rock-Paper-Scissors%20(involving%20scoring)%20Game/project_17.py)
