@@ -20,3 +20,4 @@
 - [x] Day 18 - [Guess the Number](/Day%2018%20-%20Guess%20the%20Number/project_18.py)
 - [x] Day 19 - [Loan calculator](/Day%2019%20-%20Loan%20calculator/project_19.py)
 - [x] Day 20 - [List Generatorr](/Day%2020%20-%20List%20Generator/project_20.py)
+- [x] Day 21 - [Math Game](/Day%2021%20-%20Math%20Game/project_21.py)
