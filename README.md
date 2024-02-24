@@ -24,3 +24,4 @@
 - [x] Day 22 - [Changing Guess the Number](/Day%2022%20-%20Changing%20Guess%20the%20Number/project_22.py)
 - [x] Day 23 - [Replit Login System](/Day%2023%20-%20Replit%20Login%20System/project_23.py)
 - [x] Day 24 - [Infinity dice](/Day%2024%20-%20Infinity%20dice/project_24.py)
+- [x] Day 25 - [Character Stats Generator](/Day%2025%20-%20Character%20Stats%20Generator/project_25.py)
