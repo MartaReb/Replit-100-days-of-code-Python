@@ -10,12 +10,12 @@ def rollDice(sides):
   return random.randint(1,sides)
   
 def health():
-  health = rollDice(6) * rollDice(12) / 2 + 10
-  return int(health)
+  healthStat = rollDice(6) * rollDice(12) / 2 + 10
+  return healthStat
 
 def strength():
-  strength = rollDice(6) * rollDice(12)/ 2 + 12
-  return int(strength)
+  strengthStat = rollDice(6) * rollDice(12)/ 2 + 12
+  return strengthStat
 
 while True:
   print("Character Builder")
