@@ -1,7 +1,7 @@
 import random
 
 def randomNumber():
-  number = random.randint(0,90)
+  number = random.randint(1,91)
   return number
 
 numbers = []
@@ -19,4 +19,6 @@ bingo = [[ numbers[0], numbers[1], numbers[2]],
   [ numbers [5], numbers[6], numbers[7]]]
 
 for row in bingo:
-  print(row)
+  for item in row:
+    print(f"{item:^10}", end=" | ")
+  print()
