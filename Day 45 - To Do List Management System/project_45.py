@@ -7,15 +7,26 @@ list = []
 def add():
   task = input("What is the task? > ").strip().title()
   due = input("When is it due by? > ").strip()
-  priority = input("What is the priority (high, medium or low)? > ").strip().title()
+  priority = input("What is the priority (high, medium or low)? > ").strip().lower()
   list.append([task, due, priority])
   print()
-  print("Thanks, this task has been added.")
+  print("This task has been added.")
   
 def view():
-  for row in list:
-    print(row)
-
+  option = input("Would you like to view all (1) or view priority (2)? > ")
+  if option == "1":
+    for row in list:
+      for item in row:
+        print(f"{item:^10}", end=" | ")
+      print()
+  if option == "2":
+    priority = input("What priority (high, medium or low)? > ").strip().lower()
+    for row in list:
+      if priority in row:
+        for item in row:
+          print(f"{item:^10}", end=" | ")
+        print()
+        
 def edit():
   task = input("Which task do you want to edit? > ").strip().title()
   for row in list:
@@ -31,6 +42,7 @@ def remove():
   for row in list:
     if task in row:
       list.remove(row)
+      print("Task removed.")
 
 while True:
   action = input("Do you want to add, view, edit or remove a to do? > ").strip().lower()
