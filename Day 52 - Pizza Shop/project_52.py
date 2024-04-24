@@ -1,11 +1,21 @@
+import os, time
 pizzas=[]
 
+try:
+  f = open("pizza.txt", "r")
+  pizzas = eval(f.read())
+  f.close()
+except:
+  print("ERROR: No existing pizza list, using a blank list")
+
 def add():
+  time.sleep(1)
+  os.system("clear")
   name = input("Your name please: ").title()
   size = input("Choose the size (s/m/l): ")
   while True:
     try:
-      num_pizzas = int(input("How many pizzas? "))
+      qty = int(input("How many pizzas? "))
       break
     except:
       print("You must input a numerical character! Please, try again.")
@@ -17,13 +27,28 @@ def add():
     cost = 7.99
   else:
     cost = 12.99
-  total = cost * num_pizzas
-  total = round(total,2)
-  pizzas.append(name)
-  pizzas.append(size)
-  pizzas.append(num_pizzas)
-  pizzas.append(total)
+  total = cost * qty
+  total = round(total, 2)
+  row = [name, size, qty, total]
+  pizzas.append(row)
 
-add()
-print()
-print(f"Thanks {pizzas[0]}, your pizza(s) will cost {pizzas[3]} dollars.")
+def view():
+  for row in pizzas:
+    print(f"Name: {row [0]},\nSize: {row [1]},\nQuantity: {row [2]},\nTotal: {row [3]} dollars.\n")
+  time.sleep(3)
+  
+while True:
+  time.sleep(1)
+  os.system("clear")
+  print("The Best Pizza")
+  print()
+  menu = input("Choose:\n1.Add order\n2.View orders\n> ")
+  if menu =="1":
+    add()
+  elif menu =="2":
+    view()
+  else:
+    print("Please, choose a valid option!")
+  f = open("pizza.txt", "w")
+  f.write(str(pizzas))
+  f.close()
