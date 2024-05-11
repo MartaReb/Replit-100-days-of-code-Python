@@ -10,7 +10,7 @@ event_day = int(input("What day is the event? "))
 event_date = datetime.date(event_year, event_month, event_day)
 
 difference = event_date - today
-difference = difference.days
+difference = abs(difference.days)
 
 if today == event_date:
   print(f"🎉🎉 {event_name} is today! 🎉🎉")
